@@ -1,5 +1,3 @@
-// Searching 
-
 window.addEventListener("load", async (event) => {
   window.navigator.serviceWorker
     .register("./sw.js", {
@@ -11,7 +9,7 @@ window.addEventListener("load", async (event) => {
       else if (!(url.startsWith("https://") || url.startsWith("http://")))
         url = "http://" + url;
       sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
-      location.href = "go";
+      location.href = url;
     });
 });
   function isUrl(val = "") {
