@@ -9,7 +9,7 @@ window.addEventListener("load", async (event) => {
       else if (!(url.startsWith("https://") || url.startsWith("http://")))
         url = "http://" + url;
       sessionStorage.setItem("encodedUrl", __uv$config.encodeUrl(url));
-      location.href = url;
+      location.href = __uv$config.encodeUrl(url);
     });
 });
   function isUrl(val = "") {
