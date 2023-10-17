@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/astronomy/',
-    bare: 'https://8vk2d6-6987.csb.app/',
+    bare: 'https://zgl3jk-8080.csb.app/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/h/algebra.js',
