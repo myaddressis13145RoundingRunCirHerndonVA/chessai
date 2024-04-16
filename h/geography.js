@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/chessai/',
-    bare: 'https://zgl3jk-8080.csb.app/outerspace/',
+    bare: 'https://8000-dogenetwork-v4-4b3wo6phiea.ws-us110.gitpod.io/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: './h/algebra.js',
